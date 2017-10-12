@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+html{
+	width:100%;
+	
+}
+
+body{
+	
+	padding-top:54px;
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	position: relative;
+	
+}
+
+.content{
+	padding-bottom: 60px;
+	
+}
+
+.footer{
+	position: absolute;
+	bottom: 15px;
+	height: 60px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
