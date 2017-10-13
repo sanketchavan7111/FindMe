@@ -5,7 +5,7 @@
 <sp:url var="js" value="/resources/js" />
 <sp:url var="images" value="/resources/images" />
 
-<c:set var="contextRoot" value="${pageContext.request.contextPath}"></c:set>
+<c:set var="contextRoot" value="${pageContext.request.contextPath}" />
 
 
 <!DOCTYPE html>
@@ -23,6 +23,7 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="${css}/bootstrap.min.css" rel="stylesheet">
+	<%-- <link href="${css}/bootstrap-readable.min.css" rel="stylesheet"> --%>
 	<link href="${css}/myapp.css" rel="stylesheet">
 	
 
@@ -64,7 +65,9 @@ window.contextRoot='${contextRoot}'
     <%@include file="manageproduct.jsp"%>
     </c:if>
     
-    
+    <c:if test="${userClickAllProducts==true or userClickCategoryProducts==true}">
+    	<%@include file="listProducts.jsp" %>    
+    </c:if>
     
     </div>
     <!-- Footer -->

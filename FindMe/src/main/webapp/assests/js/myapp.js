@@ -21,6 +21,8 @@ $('#manageproducts').addClass('active');
 break;
 
 default:
+$('#products').addClass('active');
+$('a_' + menu).addClass('active');
 $('#home').addClass('active');
 break;
 }
