@@ -16,7 +16,7 @@ case 'All Products':
 $('#products').addClass('active');
 break;
 
-case 'Manage Products':
+case 'Manage Product':
 $('#manageproducts').addClass('active');
 break;
 

@@ -65,9 +65,13 @@ window.contextRoot='${contextRoot}'
     <%@include file="manageproduct.jsp"%>
     </c:if>
     
-    <c:if test="${userClickAllProducts==true or userClickCategoryProducts==true}">
+    <c:if test="${userClickAllProducts==true}">
     	<%@include file="listProducts.jsp" %>    
     </c:if>
+    
+     <c:if test="${userClickCategoryProducts==true}">
+     	<%@include file="listProducts.jsp" %>     
+     </c:if>
     
     </div>
     <!-- Footer -->

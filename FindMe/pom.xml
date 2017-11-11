@@ -29,12 +29,12 @@
     
     
     <!-- link backend project to front project This is Front End Pom file -->
-		<dependency>
+
+    		<dependency>
 			<groupId>career</groupId>
 			<artifactId>FindMeBackend</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-    
     <!-- spring dependency -->
 		<dependency>
 			<groupId>org.springframework</groupId>

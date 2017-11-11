@@ -30,10 +30,9 @@
               <a class="nav-link" href="/FindMe/contact">Contact</a>
             </li>
             <li class="nav-item" id="products">
- 			<a class="nav-link"
-			href="/FindMe/show/all/products">View Products</a>
+ 			<a class="nav-link"	href="/FindMe/show/all/products">View Products</a>
  			</li>
- 			<li class="nav-item" id="manageProducts">
+ 			<li class="nav-item" id="manageproducts">
  			<a class="nav-link" href="${contextRoot}/manage/products">Manage Products</a>
  			</li>
             

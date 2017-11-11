@@ -45,7 +45,7 @@ public class PageController {
 	return mv;
 	}
 	
-	@RequestMapping(value="/show/all/products")
+	/*@RequestMapping(value="/show/all/products")
 	public ModelAndView viewp()
 	{
 	ModelAndView mv=new ModelAndView("page");
@@ -53,7 +53,7 @@ public class PageController {
 	mv.addObject("userClickView",true);
 	return mv;
 	}
-	
+	*/
 	@RequestMapping(value="/manage/products")
 	public ModelAndView managep()
 	{
